@@ -12,7 +12,7 @@ interface Person {
 }
 
 function greeter(person : Person) {
-  return "Hello, " + person.firstName + " " + person.middleInitial + " " + person.lastName;
+  return "Hello, " + person.firstName + " " + person.middleInitial + " " + person.lastName + ".";
 }
 
 let user = new Student("Jonathan", "YW", "Kim");
